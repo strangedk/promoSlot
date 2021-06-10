@@ -1,0 +1,26 @@
+{
+  "name": "mini-slot",
+  "version": "1.0.0",
+  "description": "mini-slot",
+  "main": "./src/index.html",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --open --hot --inline",
+    "build": "webpack --content-base src"
+  },
+  "author": "strangedk",
+  "license": "MIT",
+  "dependencies": {
+    "@azerion/phaser": "^2.6.16",
+    "@types/pixi.js": "^5.0.0",
+    "gsap": "^3.5.1",
+    "pixi.js": "^6.0.4"
+  },
+  "devDependencies": {
+    "script-loader": "^0.7.2",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
